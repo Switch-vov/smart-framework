@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="142.5" y="80.0">com.switchvov.smart4j.framework.proxy.AspectProxy</node>
+    <node x="598.0" y="695.0">com.switchvov.smart4j.framework.utils.StringUtil</node>
+    <node x="384.0" y="845.0">com.switchvov.smart4j.framework.bean.View</node>
+    <node x="144.0" y="770.0">com.switchvov.smart4j.framework.utils.ArrayUtil</node>
+    <node x="0.0" y="470.0">com.switchvov.smart4j.framework.helper.DatabaseHelper</node>
+    <node x="0.0" y="395.0">com.switchvov.smart4j.framework.helper.RequestHelper</node>
+    <node x="0.0" y="695.0">com.switchvov.smart4j.framework.annotation.Controller</node>
+    <node x="510.0" y="545.0">com.switchvov.smart4j.framework.helper.ClassHelper</node>
+    <node x="353.90625" y="235.0">com.switchvov.smart4j.framework.bean.Request</node>
+    <node x="0.0" y="160.0">com.switchvov.smart4j.framework.proxy.ProxyManager</node>
+    <node x="47.6875" y="235.0">com.switchvov.smart4j.framework.bean.FormParam</node>
+    <node x="187.0" y="470.0">com.switchvov.smart4j.framework.ConfigConstant</node>
+    <node x="0.0" y="545.0">com.switchvov.smart4j.framework.helper.ServletHelper</node>
+    <node x="287.0" y="770.0">com.switchvov.smart4j.framework.utils.CastUtils</node>
+    <node x="131.0" y="845.0">com.switchvov.smart4j.framework.annotation.Action</node>
+    <node x="450.0" y="695.0">com.switchvov.smart4j.framework.utils.ClassUtils</node>
+    <node x="430.0" y="770.0">com.switchvov.smart4j.framework.annotation.Service</node>
+    <node x="0.0" y="845.0">com.switchvov.smart4j.framework.utils.FileUtil</node>
+    <node x="564.0" y="770.0">com.switchvov.smart4j.framework.annotation.Aspect</node>
+    <node x="341.0" y="545.0">com.switchvov.smart4j.framework.utils.CollectionUtil</node>
+    <node x="301.0" y="695.0">com.switchvov.smart4j.framework.utils.CodeUtils</node>
+    <node x="544.0" y="470.0">com.switchvov.smart4j.framework.HelperLoader</node>
+    <node x="260.0" y="845.0">com.switchvov.smart4j.framework.annotation.Inject</node>
+    <node x="162.0" y="0.0">com.switchvov.smart4j.framework.proxy.Proxy</node>
+    <node x="0.0" y="770.0">com.switchvov.smart4j.framework.utils.JsonUtils</node>
+    <node x="10.5" y="80.0">com.switchvov.smart4j.framework.proxy.ProxyChain</node>
+    <node x="504.0" y="845.0">com.switchvov.smart4j.framework.bean.Data</node>
+    <node x="151.0" y="695.0">com.switchvov.smart4j.framework.helper.IocHelper</node>
+    <node x="161.0" y="620.0">com.switchvov.smart4j.framework.annotation.Transaction</node>
+    <node x="204.90625" y="235.0">com.switchvov.smart4j.framework.bean.FileParam</node>
+    <node x="155.25" y="315.0">com.switchvov.smart4j.framework.bean.Param</node>
+    <node x="369.0" y="470.0">com.switchvov.smart4j.framework.utils.ReflectionUtils</node>
+    <node x="480.0" y="620.0">com.switchvov.smart4j.framework.helper.AopHelper</node>
+    <node x="321.0" y="620.0">com.switchvov.smart4j.framework.utils.StreamUtils</node>
+    <node x="281.5" y="80.0">com.switchvov.smart4j.framework.proxy.TransactionProxy</node>
+    <node x="636.0" y="620.0">com.switchvov.smart4j.framework.utils.PropsUtils</node>
+    <node x="386.28125" y="315.0">com.switchvov.smart4j.framework.helper.ControllerHelper</node>
+    <node x="171.0" y="545.0">com.switchvov.smart4j.framework.helper.ConfigHelper</node>
+    <node x="607.90625" y="235.0">com.switchvov.smart4j.framework.DispatcherServlet</node>
+    <node x="154.0" y="395.0">com.switchvov.smart4j.framework.helper.UploadHelper</node>
+    <node x="468.90625" y="235.0">com.switchvov.smart4j.framework.bean.Handler</node>
+    <node x="0.0" y="620.0">com.switchvov.smart4j.framework.helper.BeanHelper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.switchvov.smart4j.framework.proxy.TransactionProxy" target="com.switchvov.smart4j.framework.proxy.Proxy">
+      <point x="0.0" y="-15.0" />
+      <point x="355.0" y="55.0" />
+      <point x="228.66666666666669" y="55.0" />
+      <point x="26.666666666666686" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.bean.Param" target="com.switchvov.smart4j.framework.bean.FileParam">
+      <point x="21.25" y="-15.0" />
+      <point x="219.0" y="290.0" />
+      <point x="230.90625" y="290.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.RequestHelper" target="com.switchvov.smart4j.framework.bean.Param">
+      <point x="33.5" y="-15.0" />
+      <point x="100.5" y="375.0" />
+      <point x="176.5" y="375.0" />
+      <point x="-21.25" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.proxy.ProxyManager" target="com.switchvov.smart4j.framework.proxy.ProxyChain">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.proxy.ProxyChain" target="com.switchvov.smart4j.framework.proxy.Proxy">
+      <point x="0.0" y="-15.0" />
+      <point x="66.5" y="55.0" />
+      <point x="175.33333333333334" y="55.0" />
+      <point x="-26.666666666666657" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.bean.Param" target="com.switchvov.smart4j.framework.bean.FormParam">
+      <point x="-21.25" y="-15.0" />
+      <point x="176.5" y="290.0" />
+      <point x="143.52083333333334" y="290.0" />
+      <point x="38.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.RequestHelper" target="com.switchvov.smart4j.framework.bean.FormParam">
+      <point x="-33.5" y="-15.0" />
+      <point x="33.500000000000014" y="290.0" />
+      <point x="66.85416666666666" y="290.0" />
+      <point x="-38.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.UploadHelper" target="com.switchvov.smart4j.framework.bean.FileParam">
+      <point x="43.33333333333331" y="-15.0" />
+      <point x="262.3333333333333" y="375.0" />
+      <point x="276.32291666666663" y="375.0" />
+      <point x="276.32291666666663" y="290.0" />
+      <point x="282.90625" y="290.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.UploadHelper" target="com.switchvov.smart4j.framework.bean.Param">
+      <point x="0.0" y="-15.0" />
+      <point x="21.25" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.ControllerHelper" target="com.switchvov.smart4j.framework.bean.Handler">
+      <point x="54.375" y="-15.0" />
+      <point x="513.15625" y="290.0" />
+      <point x="539.40625" y="290.0" />
+      <point x="23.5" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.UploadHelper" target="com.switchvov.smart4j.framework.bean.FormParam">
+      <point x="-43.33333333333334" y="-15.0" />
+      <point x="175.66666666666666" y="365.0" />
+      <point x="108.47916666666669" y="365.0" />
+      <point x="108.47916666666669" y="290.0" />
+      <point x="105.1875" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.helper.ControllerHelper" target="com.switchvov.smart4j.framework.bean.Request">
+      <point x="-54.375" y="-15.0" />
+      <point x="404.40625" y="290.0" />
+      <point x="377.65625" y="290.0" />
+      <point x="-23.75" y="15.0" />
+    </edge>
+    <edge source="com.switchvov.smart4j.framework.proxy.AspectProxy" target="com.switchvov.smart4j.framework.proxy.Proxy">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9486033519553073" x="378.5" y="437.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
