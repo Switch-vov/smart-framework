@@ -51,3 +51,6 @@ $RECYCLE.BIN/
 *.tar.gz
 *.rar
 hs_err_pid*
+smart-framework.iml
+.idea/
+src/test/
